@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ResponseBody
 public class Exercise1 {
 	@RequestMapping("/index")
-
 	public String hello() {
 		return "This is the main page";
 	}
